@@ -68,7 +68,7 @@ If any error message appears, retry adjusting the Com Port and reset the arduino
 ## Running
 The RMP firmware needs a client application to feed data into the flight simulator. 
 
-Download <a href="/fspcb/fsc">here</a>
+Download FSC <a href="https://github.com/fspcb/fsc">here</a>
 ## Development
 
 If you 'd like to contribute to the RMP software - just fork it and send in a pull request. That's what open source is for :-)
