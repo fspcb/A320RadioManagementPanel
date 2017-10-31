@@ -65,7 +65,10 @@ avrdude.exe done.  Thank you.
 Flashing was successful.
 
 If any error message appears, retry adjusting the Com Port and reset the arduino again. If you cannot get it to work at all. Just send in an <a href="https://github.com/fspcb/A320RadioManagementPanel/issues">issue</a>
+## Running
+The RMP firmware needs a client application to feed data into the flight simulator. 
 
+Download <a href="/fspcb/fsc">here</a>
 ## Development
 
 If you 'd like to contribute to the RMP software - just fork it and send in a pull request. That's what open source is for :-)
