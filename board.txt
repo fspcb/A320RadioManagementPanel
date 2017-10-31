@@ -1,0 +1,15 @@
+﻿# @itemType@=boards
+# @ArduinoIDECompatibility@=1.5
+# rmp2 build property overrides
+#
+
+############################################################## 
+
+build.name=build
+
+build.usb_product="FSPCB RMP"
+build.usb_manufacturer="FlightSimPCB"
+build.vid=0x04D8
+build.pid=0x1607
+build.usb_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid} -DUSBCON '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'
+
